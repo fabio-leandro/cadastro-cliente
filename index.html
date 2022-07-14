@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <div class="tela">
+        <h4>Cadastro Cliente</h4>
+        <div class="tipo">
+            <label for="tipos">Tipo</label>
+            <select id="tipos" name="tipos">
+                <option value="pf">Pessoa Física</option>
+                <option value="pj">Pessoa Jurídica</option>
+            </select>
+        </div>
+
+        <div class="pessoais">
+            <div class="cpf">
+                <label id="lblCpfCnpj">CPF</label>
+                <input type="text" id="i-CpfCnpj" maxlength="11">
+            </div>
+            <div class="nome">
+                <label for="">Nome</label>
+                <input type="text" id="i-Nome">
+            </div>
+        </div>
+
+        <div class="endereco">
+            <div class="ruaNumeroBairro">
+                <div class="rua">
+                    <label for="">Rua</label>
+                    <input type="text" id="i-Rua">
+                </div>
+                <div class="numero">
+                    <label for="">Numero</label>
+                    <input type="text" id="i-Numero">
+                </div>
+                <div class="bairro">
+                    <label for="">Bairro</label>
+                    <input type="text" id="i-Bairro">
+                </div>
+            </div>
+            <div class="complementoCepUfMunicipioIbge">
+                <div class="complemento">
+                    <label for="">Complemento</label>
+                    <input type="text" id="i-Complemento">
+                </div>
+                <div class="cep">
+                    <label for="">Cep</label>
+                    <input type="text" id="i-Cep">
+                </div>
+                <div class="uf">
+                    <label for="">UF</label>
+                    <input type="text" id="i-UF">
+                </div>
+                <div class="municipio">
+                    <label for="">Municipio</label>
+                    <input type="text" id="i-Municipio">
+                </div>
+                <div class="ibge">
+                    <label for="">IBGE</label>
+                    <input type="text" id="i-IBGE">
+                </div>
+            </div>
+            <div class="telefones">
+                <div class="celular">
+                    <label for="">Celular</label>
+                    <input type="text" id="i-Celular">
+                </div>
+                <div class="fixo">
+                    <label for="">Fixo</label>
+                    <input type="text" id="i-Fixo">
+                </div>
+            </div>
+            <div class="login">
+                <div class="email">
+                    <label for="">Email(Será utilizado como login)</label>
+                    <input type="email" id="i-Email">
+                </div>
+                <div class="senha">
+                    <label for="">Senha</label>
+                    <input type="password" id="i-Password">
+                </div>
+                <div class="repitaSenha">
+                    <label for="">Repita Senha</label>
+                    <input type="password" id="i-RepeatPassword">
+                </div>
+            </div>
+            <div class="salvar">
+                <button id="btnSalvar">Salvar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h4{
+    display: flex;
+    background-color: green;
+    color: #fff;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+input{
+    height: 35px;
+    border-width: 2px;
+}
+select{
+    height: 35px;
+    border-width: 2px;
+}
+button{
+    height: 35px;
+}
+label{
+    font-size: small;
+}
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    padding: 10px;
+    width: 700px;
+    margin-top: 40px;
+
+}
+
+.tipo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    
+}
+
+.pessoais{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cpf{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 5px;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 5px;
+}
+
+.ruaNumeroBairro{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rua {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 5px;
+}
+
+.numero{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bairro{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 5px;
+    
+}
+
+.complementoCepUfMunicipioIbge{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.complemento{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-right: 5px;
+}
+.cep{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.uf{
+    display: flex;
+    flex-direction: column;
+    width: 9%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.municipio{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ibge{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    margin-left: 5px;
+}
+
+.telefones{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.celular{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 5px;
+}
+
+.fixo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5px;
+}
+
+.login{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 5px;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.repitaSenha{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 5px;
+}
+
+.salvar{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.salvar button{
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+@media(max-width: 699px){
+
+    *{
+        font-size: small;
+    }
+
+    .tela{
+        width: 300px;
+    }
+
+    .tipo{
+        width: 60%;
+        margin-left: 1px;
+    }
+
+    .pessoais{
+        display: block;
+        margin-top: 0;
+    }
+
+    .cpf{
+        width: 70%;
+        margin-left: 1px;
+        margin-bottom: 5px;
+    }
+
+    .nome{
+        width: 98%;
+        margin-left: 1px;
+        margin-bottom: 0;
+    }
+
+    .ruaNumeroBairro{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .rua{
+        width: 100%;
+        margin-left: 1px;
+        margin-bottom: 5px;
+    }
+
+    .numero{
+        width: 25%;
+        margin-right: 5px;
+        margin-left: 1px;
+    }
+
+    .bairro{
+        width: 69%;
+    }
+
+    .complementoCepUfMunicipioIbge{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .complemento{
+        width: 45%;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    .cep{
+        width: 48%;
+        margin-bottom: 5px;
+    }
+
+    .uf{
+        width: 15%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .municipio{
+        width: 50%;
+        margin-left: 5px;
+    }
+
+    .ibge{
+        width: 30%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .telefones{
+        justify-content: space-around;
+    }
+
+    .celular{
+        width: 48%;
+    }
+
+    .fixo{
+        width: 48%;
+    }
+
+    .login{
+        display: block;
+    }
+
+    .email{
+        width: 100%;
+    }
+
+    .senha{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .repitaSenha{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+}
